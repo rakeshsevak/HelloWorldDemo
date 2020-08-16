@@ -5,6 +5,7 @@ stages {
 stage('build') {
 steps {
  echo 'building'
+ mvn install
 }
 }
 stage ('test') {
